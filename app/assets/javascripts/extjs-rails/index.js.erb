@@ -1,0 +1,9 @@
+<% require 'jsb3' %>
+<% jsb = Jsb3::Jsb3.new '/Users/ryan/Source/extjs-rails/app/assets/javascripts/extjs-rails/sdk.jsb3' %>
+
+<% %w{foundation extras dom classes tail}.each do |package| %>
+  <% jsb.send(package).files.each do |file| %>
+    <%= require_asset("./#{file}") %>
+  <% end %>
+<% end %>
+
