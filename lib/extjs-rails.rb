@@ -2,6 +2,6 @@ require "extjs-rails/version"
 
 module Extjs
   module Rails
-    # Your code goes here...
+    require 'extjs-rails/engine' if defined?(Rails)
   end
 end

@@ -14,4 +14,10 @@ Gem::Specification.new do |gem|
   gem.name          = "extjs-rails"
   gem.require_paths = ["lib"]
   gem.version       = Extjs::Rails::VERSION
+
+  #gem.add_dependency             = 'railties', '>= 3.1'
+  #gem.add_dependency             = 'actionpack', '>= 3.1'
+  #gem.add_dependency             = 'therubyracer', '~> 0.10.1'
+  #gem.add_runtime_dependency     = 'sass-rails', '>= 3.1'
+  #gem.add_development_dependency = 'rails', '>= 3.1'
 end
