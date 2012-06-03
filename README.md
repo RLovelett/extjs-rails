@@ -1,8 +1,18 @@
-# Extjs::Rails
+# ExtJS 4.x for Rails 3.2 Asset Pipeline
 
-TODO: Write a gem description
+ExtJS is a JavaScript application framework featuring expanded
+functionality, plugin-free charting, and a new MVC architecture.
 
-## Installation
+The extjs-rails project integrates ExtJS into the Rails 3.2 asset
+pipeline.
+
+ExtJS is a GPL v3 licensed framework. Because this package distributes
+the framework it is also being licensed under the GPL v3.
+
+However the same construct should be applicable to the commercial
+licensed version of ExtJS. So please feel free to fork the project.
+
+## Installing Gem
 
 Add this line to your application's Gemfile:
 
@@ -12,13 +22,15 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
+## Installing to App
 
-    $ gem install extjs-rails
+Add to the include of your javascript files.
 
-## Usage
+    //= require extjs-rails
 
-TODO: Write usage instructions here
+Add to the include of your CSS files.
+
+    *= require extjs-rails
 
 ## Contributing
 
