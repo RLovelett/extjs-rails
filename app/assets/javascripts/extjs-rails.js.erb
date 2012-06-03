@@ -4,7 +4,7 @@
 
 <% %w{foundation extras dom classes tail}.each do |package| %>
   <% jsb.send(package).files.each do |file| %>
-    <% require_asset("./#{file}") %>
+    <% require_asset("./extjs-rails/#{file}") %>
   <% end %>
 <% end %>
 
