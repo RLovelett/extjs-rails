@@ -18,7 +18,5 @@ Gem::Specification.new do |gem|
   gem.add_dependency              'jsb3', '~> 1.0.0'
   gem.add_dependency              'railties', '>= 3.1'
   gem.add_dependency              'actionpack', '>= 3.1'
-  gem.add_dependency              'therubyracer', '~> 0.10.1'
-  gem.add_runtime_dependency      'sass-rails', '>= 3.1'
   gem.add_development_dependency  'rails', '>= 3.1'
 end
