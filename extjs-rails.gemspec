@@ -15,7 +15,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Extjs::Rails::VERSION
 
-  gem.add_dependency              'jsb3', '~> 1.0.0'
   gem.add_dependency              'railties', '>= 3.1'
   gem.add_dependency              'actionpack', '>= 3.1'
   gem.add_development_dependency  'rails', '>= 3.1'
